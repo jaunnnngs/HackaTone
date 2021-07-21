@@ -13,57 +13,51 @@
 </head>
 
 <body>
-<form method = "post" action="문제4Result.jsp">
+<form method = "post" action="Result.jsp">
 	<table border="1">
 		<caption>회원가입</caption>
+		
 		<tr>
 			<td><label for="name">이름 </label></td>
 			<td><input type="text" name="name" id="name" required></td>
 		</tr>
+		
 		<tr>
 			<td><label for="id">아이디 </label>
 			<td><input type="text" name="id" id="id" required></td>
 		</tr>
+		
 		<tr>
 			<td><label for="pw">비밀번호 </label>
 			<td><input type="password" name="pw" id="pw" required></td>
 		</tr>
+		
 		<tr>
 			<td><label for="pwcheck">비밀번호 확인</label></td>
 			<td><input type="password" name="pwcheck" id="pwcheck" required> <span id="pwcheckText"></span> </td>
 		</tr>
+		
 		<tr>
 			<td><label for="email">이메일</label></td>
-			<td><input type="email" name="email" id="email" required></td>
-		</tr>
-		<tr>
-			<td><label for="hobby">취미</label></td>
-			<td>
-				<input type="checkbox" name="hobby" value="독서" id="reading">독서
-				<input type="checkbox" name="hobby" value="요리" id="cooking">요리
-				<input type="checkbox" name="hobby" value="조깅" id="running">조깅
-				<input type="checkbox" name="hobby" value="취침" id="sleeping">취침		
+			<td><input type="email" name="email" id="email" required>
+			<input type="submit" value="인증">
 			</td>
 		</tr>
+		
 		<tr>
-			<td>전공</td>
+		<td><label for="phonenumber">전화번호</label> </td>
 			<td>
-			<input type="radio" name="major" value="국어">국어
-			<input type="radio" name="major" value="영어">영어
-			<input type="radio" name="major" value="수학">수학
-			<input type="radio" name="major" value="디자인">디자인
-			</td>
-		</tr>
-		<tr>
-			<td><label for="aMobileCarrier">전화번호</label> </td>
-			<td>
-				<select name="aMobileCarrier">
+			<select name="phonecompany">
 					<option value="SKT">SKT</option>
-					<option value="LG">LG</option>
+					<option value="LGT">LGT</option>
 					<option value="KT">KT</option>
 				</select>
+			<input type="phonenumber" name="phonenumber" id="phonenumber" required>
+			<br><input type="checkbox" name="phonenumber" value="개인정보동의" id="reading">개인정보동의<br>
+				
 			</td>
 		</tr>
+		
 		<tr>
 			<td colspan="2" style="text-align:center;">
 				<input type="submit" value="전송">
