@@ -27,11 +27,11 @@
 		Statement stmt = null;
 		ResultSet rs = null;
 		try {
-			String jdbcDriver = "jdbc:mysql://localhost:3306/hack_db?" + "useUnicode=true&characterEncoding=utf8";
+			String jdbcDriver = "jdbc:mysql://192.168.0.27:3306/hack_db?" + "useUnicode=true&characterEncoding=utf8";
 			//String jdbcDriver = "jdbc:mysql://localhost:3306/TUTORIAL?useSSL=false&serverTimezone=UTC";
 			//String jdbcDriver = "jdbc:mysql://localhost:3306/TUTORIAL?serverTimezone=UTC"; 
 
-			String dbUser = "root";
+			String dbUser = "HackUser";
 			String dbPass = "1234";
 			String query = "select * from userjoin"; // Create DB 
 			conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
