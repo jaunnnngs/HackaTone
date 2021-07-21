@@ -23,15 +23,38 @@
 			<td><input type="text" name="userID" id="userID" required></td>
 		</tr>
 		
-		<tr>
+<form name="join">
+   <tr>
 			<td><label for="userPassword">비밀번호 </label>
 			<td><input type="password" name="userPassword" id="userPassword" required></td>
 		</tr>
 		
-		<tr>
+    <tr>
 			<td><label for="pwcheck">비밀번호 확인</label></td>
 			<td><input type="password" name="pwcheck" id="pwcheck" required> <span id="pwcheckText"></span> </td>
 		</tr>
+
+  </form>
+
+  <script type="text/javascript">
+    function test() {
+      var p1 = document.getElementById('password1').value;
+      var p2 = document.getElementById('password2').value;
+      
+      if(p1.length < 6) {
+              alert('입력한 글자가 6글자 이상이어야 합니다.');
+              return false;
+          }
+          
+          if( p1 != p2 ) {
+            alert("비밀번호불일치");
+            return false;
+          } else{
+            alert("비밀번호가 일치합니다");
+            return true;
+          }
+    }
+  </script>
 		
 		<tr>
 			<td><label for="name">이름 </label></td>
@@ -67,7 +90,7 @@
 		
 		<tr>
 			<td colspan="2" style="text-align:center;">
-				<input type="submit" value="회원가입">
+			    <input type="submit" onclick="test()" value="회원가입">
 				<input type="reset" value="다시입력">
 			</td>
 		</tr>
@@ -78,7 +101,7 @@
 <tr>
 	<td colspan="2" style="text-align:center;">
  		<br><input type="submit" value="관리자용확인"><br>
- 		<br><input type="image" src="IMG_1085.JPG" width="150" >나는 로봇이 아닙니다<br>
+ 		<br><input type="image" src="IMG_1085.JPG" width="150" >관리자용 확인 버튼입니당<br>
 	</td>
 </tr>
 </form>

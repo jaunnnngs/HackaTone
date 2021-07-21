@@ -33,29 +33,37 @@
 	{
 		NewUser.setNumber(request.getParameter("number"));
 	}
+	
+	//하나라도 빈칸있는경우
 	if(NewUser.getUserID().equals("") || NewUser.getUserPassword().equals("")|| NewUser.getName().equals("")|| NewUser.getEmail().equals("")|| NewUser.getNumber().equals(""))
 	{
 		PrintWriter script = response.getWriter();
 		script.println("<script>");
-		script.println("alert('입력이 안 된 게 있다.')");
+		script.println("alert('다시 확인해주세요.')");
 		script.println("</script>");
 		script.close();
 		return;
 	}
 	
-	
 	//ID와 비밀번호가 모두 있는 경우
 	st_UserDAO userDAO = new st_UserDAO();
 	int result = userDAO.join(NewUser.getUserID(),NewUser.getUserPassword(),NewUser.getName(),NewUser.getEmail(),NewUser.getNumber());
-	if(result == 1) //정상적으로 구동된 경우
-	{
+	if(result == -1){
 		PrintWriter script = response.getWriter();
 		script.println("<script>");
-		script.println("alert('잘 됐습니다!!!')");
+		script.println("alert('이미 존재하는 아이디입니다')");
+		script.println("history.back()");
+		script.println("</script>");
+	}else{//정상구동(result==1)
+		PrintWriter script = response.getWriter();
+		script.println("<script>");
+		script.println("alert('회원가입 성공!!!')");
 		script.println("location.href='st_userJoin.jsp'");
 		script.println("</script>");
 		script.close();
+		return;
 	}
+	
 
 %>
 </body>
