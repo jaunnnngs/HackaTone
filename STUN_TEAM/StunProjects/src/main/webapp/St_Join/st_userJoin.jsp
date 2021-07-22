@@ -23,39 +23,13 @@
 			<td><input type="text" name="userID" id="userID" required></td>
 		</tr>
 		
-<form name="join">
+
    <tr>
 			<td><label for="userPassword">비밀번호 </label>
 			<td><input type="password" name="userPassword" id="userPassword" required></td>
 		</tr>
 		
-    <tr>
-			<td><label for="pwcheck">비밀번호 확인</label></td>
-			<td><input type="password" name="pwcheck" id="pwcheck" required> <span id="pwcheckText"></span> </td>
-		</tr>
-
-  </form>
-
-  <script type="text/javascript">
-    function test() {
-      var p1 = document.getElementById('password1').value;
-      var p2 = document.getElementById('password2').value;
-      
-      if(p1.length < 6) {
-              alert('입력한 글자가 6글자 이상이어야 합니다.');
-              return false;
-          }
-          
-          if( p1 != p2 ) {
-            alert("비밀번호불일치");
-            return false;
-          } else{
-            alert("비밀번호가 일치합니다");
-            return true;
-          }
-    }
-  </script>
-		
+   
 		<tr>
 			<td><label for="name">이름 </label></td>
 			<td><input type="text" name="name" id="name" required></td>
