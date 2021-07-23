@@ -21,3 +21,6 @@
 1627011204244	Move 'St_Reservation' to 'St_Join'
 1627011268496	Move 'reservation.jsp' to 'St_Reservation'
 1627011485152	Move 'St_Reservation' to 'webapp'
+1627016629231	Rename resource 'css'
+1627016634834	Rename resource 'js'
+1627016648049	Copy folders
