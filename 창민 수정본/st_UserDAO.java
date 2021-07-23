@@ -38,7 +38,8 @@ public class st_UserDAO {
 			pstmt.setString(1, reservation.getUser_name());
 			pstmt.setString(2, reservation.getUser_tel());
 			pstmt.setInt(3, reservation.getNumber());
-			pstmt.setString(4, reservation.getReservation_date());
+			pstmt.setString(4, reservation.getStore_name());
+			pstmt.setString(5, reservation.getReservation_date());
 			
 			return pstmt.executeUpdate();
 		}
