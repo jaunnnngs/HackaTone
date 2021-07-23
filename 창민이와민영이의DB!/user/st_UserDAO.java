@@ -32,12 +32,14 @@ public class st_UserDAO {
 	}
 	
 	public int insert_reservation(ReservationDTO reservation) {
-		String sql = "INSERT INTO reservation VALUES(1,?,?,?,?,?)";
+		String sql = "INSERT INTO reservation(user_name, user_tel, number, store_name, reservation_date) VALUES(?,?,?,?,?)";
 		try {
+			System.out.println(reservation.getUser_name());
+			System.out.println(reservation.getStore_name());
 			PreparedStatement pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, reservation.getUser_name());
 			pstmt.setString(2, reservation.getUser_tel());
-			pstmt.setInt(3, reservation.getNumber());
+			pstmt.setString(3, reservation.getNumber());
 			pstmt.setString(4, reservation.getStore_name());
 			pstmt.setString(5, reservation.getReservation_date());
 			

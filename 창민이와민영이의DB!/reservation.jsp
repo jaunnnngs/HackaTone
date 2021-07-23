@@ -55,7 +55,9 @@
 </script>
 
 <form action="reservationVO.jsp" method="post">
-가게명: <%out.println(request.getParameter("title")); %><br>
+가게명: 
+<%String title =request.getParameter("title");
+out.println(title); %><br>
 예약자명: 	    <input type = "text" name = "reservation_name"><br>
 예약자 연락처: 	<input type = "text" name = "reservation_tel"><br>
 인원수: <select name = "reservation_number">
@@ -69,6 +71,7 @@
 </select>
 <br>
 예약날짜: <input type="text" id="startDate" name=reservation_date>
+<input type ="hidden" name="title" value=<%=title %>>
 <input type = "submit" value = "제출"><br>
 </form>
 </body>
