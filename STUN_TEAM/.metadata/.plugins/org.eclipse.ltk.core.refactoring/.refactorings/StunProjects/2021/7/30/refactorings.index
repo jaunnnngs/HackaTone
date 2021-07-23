@@ -24,3 +24,11 @@
 1627016629231	Rename resource 'css'
 1627016634834	Rename resource 'js'
 1627016648049	Copy folders
+1627018607251	Rename resource 'css_bt'
+1627018611873	Rename resource 'js_bt'
+1627018647334	Delete element
+1627018664237	Delete element
+1627018940397	Move 'styles.css' to 'css'
+1627018944928	Delete element
+1627018951991	Move 'scripts.js' to 'js'
+1627018956232	Delete element

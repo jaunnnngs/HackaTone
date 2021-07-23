@@ -24,7 +24,6 @@
 <title>Worm Place</title>
 </head>
 <body>
- <form action="./st_userJoinAction.jsp"method="post">
 <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
