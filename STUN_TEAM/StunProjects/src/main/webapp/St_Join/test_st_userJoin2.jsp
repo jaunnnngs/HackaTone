@@ -23,13 +23,13 @@
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
-                <a class="navbar-brand" href="#!">Warm Place</a>
+                <a class="navbar-brand" href="main.jsp">Warm Place</a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#!">로그인</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">회원가입</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">로그인</a></li>
+                        <li class="nav-item"><a class="nav-link" href="test_st_userJoin2.jsp">회원가입</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">예약하기</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">맛집후기</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Contact Us</a></li>
@@ -106,11 +106,9 @@
                             <!-- This is what your users will see when there is-->
                             <!-- an error submitting the form-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                            <div class="d-grid"><a class="btn btn-outline-primary" id="submitButtion" type="submit" href="#!">Choose plan</a></div>
                    
-			<td colspan="2" style="text-align:center;">
-			    <input class="btn btn-primary btn-lg disabled" id="submitButton"  type="submit" onclick="test()" value="회원가입">
-				<input type="reset" value="다시입력">
-			</td>
+			
                            
                        
 			<td colspan="2" style="text-align:center;">
