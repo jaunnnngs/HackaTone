@@ -7,7 +7,7 @@ public class ReservationDTO {
 	String store_name;
 	String reservation_date;
 	
-	public ReservationDTO(String name, String tel, int number2, String storeName, String reservationDate) {
+	public ReservationDTO(String name, String tel, int number, String storeName, String reservationDate) {
 		// TODO Auto-generated constructor stub
 	}
 	public String getUser_name() {

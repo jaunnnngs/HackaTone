@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -308,8 +307,8 @@ pageEncoding="UTF-8"%>
             <div class="container px-5 my-5 px-5">
                 <div class="text-center mb-5">
                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
-                    <h2 class="fw-bolder">Get in touch</h2>
-                    <p class="lead mb-0">We'd love to hear from you</p>
+                    <h2 class="fw-bolder">불편한 점을 보내주세요!</h2>
+                    <p class="lead mb-0">고객님의 소중한 의견을 기다립니다.</p>
                 </div>
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-6">
@@ -320,7 +319,9 @@ pageEncoding="UTF-8"%>
                         <!-- To make this form functional, sign up at-->
                         <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        
+                            <form action="./main_mailaction.jsp"method="post" id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        
                             <!-- Name input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
@@ -346,7 +347,7 @@ pageEncoding="UTF-8"%>
                                 <label for="message">Message</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
-                            <!-- Submit success message-->
+                            <!-- 제출 성공시 뜨는 메세지-->
                             <!---->
                             <!-- This is what your users will see when the form-->
                             <!-- has successfully submitted-->
@@ -358,21 +359,24 @@ pageEncoding="UTF-8"%>
                                     <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                                 </div>
                             </div>
-                            <!-- Submit error message-->
+                            <!-- 제출 에러 메세지-->
                             <!---->
                             <!-- This is what your users will see when there is-->
                             <!-- an error submitting the form-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
-                        </form>
+                            <!--마지막 버튼!  -->
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+							<a class="btn btn-outline-primary"><input type="submit" value="이메일보내기"></a>
+							<a class="btn btn-outline-primary"><input type="reset" value="다시입력"></a></div>
+							</form>
+                      
                     </div>
                 </div>
             </div>
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+            <div class="container px-5"><p class="m-0 text-center text-white">Copyright &copy; Warm Place 2021</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>

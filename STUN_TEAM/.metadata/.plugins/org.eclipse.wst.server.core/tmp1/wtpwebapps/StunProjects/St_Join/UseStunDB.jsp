@@ -27,7 +27,7 @@
 		Statement stmt = null;
 		ResultSet rs = null;
 		try {
-			String jdbcDriver = "jdbc:mysql://192.168.0.104:3306/hack_db?" + "useUnicode=true&characterEncoding=utf8";
+			String jdbcDriver = "jdbc:mysql://192.168.0.58:3306/hack_db?" + "useUnicode=true&characterEncoding=utf8";
 			//String jdbcDriver = "jdbc:mysql://localhost:3306/TUTORIAL?useSSL=false&serverTimezone=UTC";
 			//String jdbcDriver = "jdbc:mysql://localhost:3306/TUTORIAL?serverTimezone=UTC"; 
 

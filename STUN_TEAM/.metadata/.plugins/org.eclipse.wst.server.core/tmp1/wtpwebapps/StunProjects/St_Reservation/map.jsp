@@ -1,3 +1,4 @@
+<%@page import="java.io.PrintWriter"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
 <!DOCTYPE html>
@@ -96,6 +97,17 @@
                 </div>
             </div>
         </nav>
+
+<%
+        if (userID == null) {
+    		PrintWriter script = response.getWriter();
+    		script.println("<script>");
+    		script.println("alert('로그인을 하세요')");
+    		script.println("location.href='../St_board/login.jsp'");
+    		script.println("</script>");
+    	} else {
+  %>
+ 
         
 <div class="map_wrap">
     <div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div>
@@ -345,6 +357,10 @@ function removeAllChildNods(el) {
         el.removeChild (el.lastChild);
     }
 }
+ 
 </script>
+<%
+}
+	%>
 </body>
 </html>

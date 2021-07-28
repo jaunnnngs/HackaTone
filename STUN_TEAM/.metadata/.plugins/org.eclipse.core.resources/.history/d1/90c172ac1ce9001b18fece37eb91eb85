@@ -1,4 +1,0 @@
-<%@page import="user.UserDAO"%>
-<%@page import="user.UserDTO"%>
-<%@page import="java.io.PrintWriter"%>
-<%@page language="user.UserDAO"%>

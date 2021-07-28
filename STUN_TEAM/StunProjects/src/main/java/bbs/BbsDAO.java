@@ -14,7 +14,7 @@ public class BbsDAO {
 	// 기본 생성자
 	public BbsDAO() {
 		try {
-			String dbURL = "jdbc:mysql://192.168.0.104:3306/hack_db?"
+			String dbURL = "jdbc:mysql://192.168.0.58:3306/hack_db?"
 					+ "useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC";
 			String dbID = "HackUser";
 			String dbPassword = "1234";

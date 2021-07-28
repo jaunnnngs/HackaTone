@@ -58,7 +58,7 @@
 		PrintWriter script = response.getWriter();
 		script.println("<script>");
 		script.println("alert('회원가입 성공!!!')");
-		script.println("location.href='main.jsp'");
+		script.println("location.href='../St_Join/main.jsp'");
 		script.println("</script>");
 		script.close();
 		return;
