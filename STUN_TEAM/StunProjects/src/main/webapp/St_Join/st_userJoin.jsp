@@ -102,13 +102,14 @@
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
+                         
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" name="number" id="phonenumber" type="phonenumber" placeholder="(123) 456-7890" data-sb-validations="required" />
                                 <label for="phonenumber">연락처</label>
                                 <div class="invalid-feedback" data-sb-feedback="phonenumber:required">A phone number is required.</div>
                             </div>
-                            </form>
+                           
 
                             <!-- 제출 성공시 뜨는 메세지-->
                             <!---->
@@ -129,18 +130,19 @@
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!--마지막 버튼!  -->
                             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-							<a class="btn btn-outline-primary"><input type="submit" value="회원가입"></a>
-							<a class="btn btn-outline-primary"><input type="reset" value="다시입력"></a></div>
+							<input class="btn btn-outline-primary" type="submit" value="회원가입">
+							<input class="btn btn-outline-primary" type="reset" value="다시입력"></div>
 			
 		</form>
-                     
+		
+                 
                      
                        
         
      <!-- 디비확인용 버튼 -->   
      <form action="./UseStunDB.jsp" method="post">
      <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-     <a class="btn btn-outline-primary"><input type="submit" value="관리자용확인"></a></div>
+     <input class="btn btn-outline-primary" type="submit" value="관리자용확인"></div>
 	 </form>
 
 
