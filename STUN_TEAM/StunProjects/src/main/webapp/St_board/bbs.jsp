@@ -41,7 +41,7 @@
                         <li class="nav-item"><a class="nav-link" href="../St_Join/st_userJoin.jsp">회원가입</a></li>
                         <li class="nav-item"><a class="nav-link" href="../St_Reservation/map.jsp">예약하기</a></li>
                         <li class="nav-item"><a class="nav-link" href="../St_board/bbs.jsp">맛집후기</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">마이페이지</a></li>
                     </ul>
 				<%
 				// 로그인이 되어 있는 상태에서 보여주는 화면
@@ -52,7 +52,7 @@
                         <li class="nav-item"><a class="nav-link" href="../St_Join/st_userJoin.jsp">회원가입</a></li>
                         <li class="nav-item"><a class="nav-link" href="../St_Reservation/map.jsp">예약하기</a></li>
                         <li class="nav-item"><a class="nav-link" href="../St_board/bbs.jsp">맛집후기</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">마이페이지</a></li>
                     </ul>
                     <%
 				}
@@ -60,6 +60,7 @@
                 </div>
             </div>
         </nav>
+       
     
 			 
                   	<%
@@ -129,5 +130,6 @@
 	<!-- 부트스트랩 참조 영역 -->
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
+
 </body>
 </html>
