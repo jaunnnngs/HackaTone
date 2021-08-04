@@ -30,7 +30,6 @@
 		script.println("history.back()");
 		script.println("</script>");
 		script.close();
-		return;
 	} else{
 		PrintWriter script = response.getWriter();
 		script.println("<script>");
@@ -38,8 +37,7 @@
 		script.println("location.href='../St_Join/main.jsp'");
 		script.println("</script>");
 		script.close();
-		return;
-	} 
+	}
 	%>
 	
 </body>

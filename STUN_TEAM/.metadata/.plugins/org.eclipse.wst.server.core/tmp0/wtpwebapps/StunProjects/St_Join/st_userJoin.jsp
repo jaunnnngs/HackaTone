@@ -137,14 +137,14 @@
 		
                  
                      
-                       
+                       <div><br></div>
         
      <!-- 디비확인용 버튼 -->   
      <form action="./UseStunDB.jsp" method="post">
      <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
      <input class="btn btn-outline-primary" type="submit" value="관리자용확인"></div>
 	 </form>
-
+  <div><br></div>
 
     <!-- 하단화면r-->
     
