@@ -74,7 +74,7 @@
 	%>
 		
 	<!-- 게시판 메인 페이지 영역 시작 -->
-	<div class="container">
+	<div class="container px-5 my-5 px-5 " style="width:1000px;">
 		<div class="row">
 			<table class="table table-striped" style="text-align: center; border: 1px solid #dddddd">
 				<thead>

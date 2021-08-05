@@ -77,9 +77,8 @@
         </header>
         <!-- Features section-->
         <section class="bg-light py-5" id="features">
-            <div class="container px-5 my-5 px-5">
+            <div class="container px-5 my-5 px-5" >
                 <div class="text-center mb-5">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
                         <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
                         <h2 class="h4 fw-bolder">실시간 장소확인</h2>
                         <p>장소를 입력해주세요.</p>
@@ -90,7 +89,7 @@
                     </div>
             
                 </div>
-            </div>
+          
         </section>
         
        
@@ -161,7 +160,6 @@
 							<a class="btn btn-outline-primary"><input type="submit" value="이메일보내기"></a>
 							<a class="btn btn-outline-primary"><input type="reset" value="다시입력"></a></div>
 							</form>
-                      
                     </div>
                 </div>
             </div>
