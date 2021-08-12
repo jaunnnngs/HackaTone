@@ -135,9 +135,9 @@
 			
 		</form>
 		
-                 
+          </div></div></div></section></form>       
                      
-                       <div><br></div>
+                      
         
      <!-- 디비확인용 버튼 -->   
      <form action="./UseStunDB.jsp" method="post">

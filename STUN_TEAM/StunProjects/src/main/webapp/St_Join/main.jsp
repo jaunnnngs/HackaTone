@@ -27,7 +27,8 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
                 <a class="navbar-brand" href="../St_Join/main.jsp">Warm Place</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
                  <%
 					// 로그인 하지 않았을 때 보여지는 화면
@@ -159,9 +160,10 @@
                             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
 							<a class="btn btn-outline-primary"><input type="submit" value="이메일보내기"></a>
 							<a class="btn btn-outline-primary"><input type="reset" value="다시입력"></a></div>
-							</form>
-                    </div>
+				</form>	
                 </div>
+                </div>
+                
             </div>
         </section>
         <!-- Footer-->

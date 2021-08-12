@@ -68,7 +68,7 @@
     		script.println("location.href='../St_board/login.jsp'");
     		script.println("</script>");
     	} else {
-  %>
+ 		 %>
 	
 	<!-- 게시판 글쓰기 양식 영역 시작 -->
 	<div class="container">

@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="container"/>
+		<item key="selection" value="bbsID"/>
 		<list key="findhistory">
+			<item value="bbsid"/>
 			<item value="container"/>
 			<item value="회원"/>
 			<item value="회원 가입"/>
