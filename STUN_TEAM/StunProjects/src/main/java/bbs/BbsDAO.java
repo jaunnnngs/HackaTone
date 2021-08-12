@@ -77,12 +77,13 @@ public class BbsDAO {
 
 	// 게시글 리스트 메소드
 	public ArrayList<Bbs> getList(int pageNumber) {
-		String sql = "select * from bbs where bbsID < ? and bbsAvailable = 1 order by bbsID desc limit 10";
+		String sql = "select * from bbs where bbsID < ? and bbsAvailable = 1 order by bbsID limit 10";
 		ArrayList<Bbs> list = new ArrayList<Bbs>();
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(sql);
 			pstmt.setInt(1, getNext() - (pageNumber - 1) * 10);
 			rs = pstmt.executeQuery();
+			//int i =1;
 			while (rs.next()) {
 				Bbs bbs = new Bbs();
 				bbs.setBbsID(rs.getInt(1));
@@ -92,6 +93,7 @@ public class BbsDAO {
 				bbs.setBbsContent(rs.getString(5));
 				bbs.setBbsAvailable(rs.getInt(6));
 				list.add(bbs);
+				//i++;
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

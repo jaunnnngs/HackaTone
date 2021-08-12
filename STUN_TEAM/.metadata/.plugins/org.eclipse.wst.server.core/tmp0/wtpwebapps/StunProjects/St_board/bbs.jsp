@@ -91,8 +91,10 @@
 						ArrayList<Bbs> list = bbsDAO.getList(pageNumber);
 						for(int i = 0; i < list.size(); i++){
 					%>
+					
+<%-- <!-- 						<td><%= list.get(i).getBbsID() %></td> --> --%>
 					<tr>
-						<td><%= list.get(i).getBbsID() %></td>
+						<td><%= (i+1) %></td>
 						<!-- 게시글 제목을 누르면 해당 글을 볼 수 있도록 링크를 걸어둔다 -->
 						<td><a href="view.jsp?bbsID=<%= list.get(i).getBbsID() %>">
 							<%= list.get(i).getBbsTitle() %></a></td>
