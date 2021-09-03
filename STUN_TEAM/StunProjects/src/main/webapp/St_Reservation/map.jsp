@@ -98,7 +98,7 @@
             </div>
         </nav>
 
-<%
+<%-- <%
         if (userID == null) {
     		PrintWriter script = response.getWriter();
     		script.println("<script>");
@@ -106,7 +106,7 @@
     		script.println("location.href='../St_board/login.jsp'");
     		script.println("</script>");
     	} else {
-  %>
+  %> --%>
  
         
 <div class="map_wrap">
@@ -359,8 +359,8 @@ function removeAllChildNods(el) {
 }
  
 </script>
-<%
+<%-- <%
 }
-	%>
+	%> --%>
 </body>
 </html>
