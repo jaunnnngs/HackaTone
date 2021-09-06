@@ -1,7 +1,8 @@
 
 # HackerTone
-Hello
+코시국에도 안전하게 놀자! 핫플 예약프로그램 설명입니당.
 
+포트폴리오보기 >>>>> https://jaunnnngs.github.io/portfolio/ <br>
 피피티보기 >>>>> https://jaunnnngs.github.io/Hackathon/
 
 ![슬라이드1](https://user-images.githubusercontent.com/81130206/132163710-f4dfcd32-bfcb-4803-b84f-7986eae46a3e.JPG)
