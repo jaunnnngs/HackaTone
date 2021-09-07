@@ -19,7 +19,7 @@
  <br>
 <h4>용현</h4>
   포트폴리오보기 >>>>>깃포트폴리오 주소는 아직 없음  <br>
-이메일주소 >>>>> gornhub13@gmail.com  <br>
+이메일주소 >>>>> gornhub13@gmail.com  <br><br>
 
 ![슬라이드1](https://user-images.githubusercontent.com/81130206/132163710-f4dfcd32-bfcb-4803-b84f-7986eae46a3e.JPG)
 ![슬라이드2](https://user-images.githubusercontent.com/81130206/132163763-30aabe6f-6069-4e9f-aa2f-c9e55052ade0.JPG)
