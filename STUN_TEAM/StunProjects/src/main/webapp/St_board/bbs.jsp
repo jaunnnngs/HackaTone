@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"  pageEncoding="UTF-8"%>
 <%@ page import="java.io.PrintWriter" %>
 <%@ page import="bbs.BbsDAO" %>
 <%@ page import="bbs.Bbs" %>
@@ -19,13 +19,13 @@
         <link href="css/styles.css" rel="stylesheet" />
 </head>
 <body>
-<%-- <%
+<%
 		// 메인 페이지로 이동했을 때 세션에 값이 담겨있는지 체크
 		String userID = null;
 		if(session.getAttribute("userID") != null){
 			userID = (String)session.getAttribute("userID");
 		}
-	%> --%>
+	%>
     <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
