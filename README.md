@@ -1,5 +1,5 @@
 
-# HackerTone
+# Hackathon
 코시국에도 안전하게 놀자! 핫플 예약프로그램 설명입니당. <br>
 피피티보기 >>>>> https://jaunnnngs.github.io/Hackathon/ <br>
  <br>
