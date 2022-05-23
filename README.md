@@ -1,7 +1,7 @@
 
 # Hackathon
 코시국에도 안전하게 놀자! 핫플 예약프로그램 설명입니당. <br>
-피피티보기 >>>>> https://jaunnnngs.github.io/Hackathon/ <br>
+자세한 내용과 발표영상은 >>>>> https://jaunnnngs21.tistory.com/25?category=1015319 <br>
  <br>
  <h4> <저희 STUN 팀원들 CONTACT 주소입니다> <br> </h4>
 
